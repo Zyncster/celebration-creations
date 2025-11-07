@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 export default function Header() {
     return (
-        <header style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}>
-            <h1 style={{ margin: 0 }}>Celebration Creations</h1>
-            <nav style={{ marginTop: "0.5rem" }}>
-                <Link to="/" style={{ marginRight: "1rem" }}>Home</Link>
-                <Link to="/gallery" style={{ marginRight: "1rem" }}>Gallery</Link>
-                <Link to="/contact">Contact</Link>
-            </nav>
+        <header className="header">
+            <div className="header-content">
+                <h1 className="logo">Celebration Creations</h1>
+                <nav className="nav">
+                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/gallery" className="nav-link">Gallery</Link>
+                    <Link to="/contact" className="nav-link">Contact</Link>
+                </nav>
+            </div>
         </header>
     );
 }
