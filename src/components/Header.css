@@ -47,3 +47,28 @@
 .nav-link:active {
     transform: translateY(0);
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+        gap: 1rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
