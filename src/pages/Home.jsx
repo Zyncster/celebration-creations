@@ -40,6 +40,13 @@ export default function Home() {
                         </p>
                     </div>
 
+                    <div className="feature-card">
+                        <div className="feature-icon">✨</div>
+                        <h3 className="feature-title">Premium Quality</h3>
+                        <p className="feature-description">
+                            I use only the highest quality balloons and materials for long-lasting, beautiful displays.
+                        </p>
+                    </div>
                     
                 </div>
             </section>
