@@ -47,6 +47,14 @@ export default function Home() {
                             I use only the highest quality balloons and materials for long-lasting, beautiful displays.
                         </p>
                     </div>
+
+                    <div className="feature-card">
+                        <div className="feature-icon">💝</div>
+                        <h3 className="feature-title">Attention to Detail</h3>
+                        <p className="feature-description">
+                            From consultation to installation, every detail is carefully crafted to exceed your expectations.
+                        </p>
+                    </div>
                     
                 </div>
             </section>
