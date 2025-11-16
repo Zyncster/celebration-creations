@@ -55,7 +55,14 @@ export default function Home() {
                             From consultation to installation, every detail is carefully crafted to exceed your expectations.
                         </p>
                     </div>
-                    
+
+                    <div className="feature-card">
+                        <div className="feature-icon">🎯</div>
+                        <h3 className="feature-title">Perfect for Any Event</h3>
+                        <p className="feature-description">
+                            Birthdays, weddings, corporate events, baby showers, and more - no celebration is too big or small. 
+                        </p>
+                    </div>
                 </div>
             </section>
         </div>
