@@ -65,6 +65,34 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* Placeholder Image Section */}
+            <section className="showcase-section">
+                <div className="showcase-content">
+                    <h2 className="section-title">Transform Your Event</h2>
+                    <div className="image-placeholder">
+                        <div className="placeholder-icons">🎈🎉🎊</div>
+                        <p className="placeholder-text">
+                            Featured balloon arch photo coming soon! Imagine your perfect celebration brought to life with custom balloon designs.
+                        </p>
+                    </div>
+                    <p className="showcase-tip">
+                        💡 Tip: Upload a photo of one of your best balloon arches here to showcase your work!
+                    </p>
+                </div>
+            </section>
+
+            {/* Call to Action Section */}
+            <section className="cta-section">
+                <div className="cta-content">
+                    <h2 className="section-title">Ready to Make Your Event Special?</h2>
+                    <p className="cta-text">
+                        Let's discuss your vision and create something amazing together. I'd love you hear about your upcoming celebration!
+                    </p>
+                    <Link to="/contact" className="btn btn-primary btn-large">
+                    Contact Me Today!</Link>
+                </div>
+            </section>
         </div>
     )
-}
+};
