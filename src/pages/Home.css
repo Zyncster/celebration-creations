@@ -78,3 +78,39 @@
     padding: 1rem 3rem;
     font-size: 1.2rem;
 }
+
+/* Decorative Balloons */
+.balloon-decor {
+    position: absolute;
+    opacity: 0.3;
+    animation: float 3s ease-in-out infinite;
+}
+
+.balloon-1 {
+    top: 10%;
+    left: 5%;
+    font-size: 3rem;
+}
+
+.balloon-2 {
+    top: 60%;
+    right: 8%;
+    font-size: 2.5rem;
+    animation-duration: 4s;
+}
+
+.balloon-3 {
+    bottom: 15%;
+    left: 10%;
+    font-size: 2rem;
+    animation-duration: 3.5s;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
