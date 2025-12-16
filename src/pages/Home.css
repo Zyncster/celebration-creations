@@ -164,3 +164,45 @@
     line-height: 1.6;
     font-size: 0.95rem;
 }
+
+/* Showcase Section */
+.showcase-section {
+    padding: 4rem 2rem;
+    background-color: #f5e6e8;
+    text-align: center;
+}
+
+.showcase-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image-placeholder {
+    background-color: #30d0d3;
+    border-radius: 15px;
+    padding: 8rem 2rem;
+    margin-bottom: 1.5rem;
+    border: 3px dashed #c0b0b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.placeholder-icons {
+    font-size: 4rem;
+}
+
+.placeholder-text {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 400px;
+    margin: 0;
+}
+
+.showcase-tip {
+    color: #555;
+    font-size: 1rem;
+    font-style: italic;
+}
