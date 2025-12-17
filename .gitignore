@@ -16,6 +16,7 @@ build/
 *.swp
 *.swo
 *~
+/notes/
 
 # OS files
 .DS_Store
